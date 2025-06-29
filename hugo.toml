@@ -1,0 +1,70 @@
+baseURL = 'https://shaolinxu.github.io/'
+languageCode = 'en-us'
+title = "Shaolin Xu's Blog"
+theme = 'papermod'
+
+[params]
+homeInfoParams.Title = "Hello!"
+homeInfoParams.Content = "Here is my blog where I share my thoughts, tech notes and projects than I have worked with"
+cover.linkFullImages = true
+ShowBreadCrumbs = true
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+ShowCodeCopyButtons = true
+
+[params.profileMode]
+enabled = true
+title = "Shaolin Xu's Blog" # optional default will be site title
+subtitle = "Where I share ideas, techs and projects"
+imageUrl = "imgs/Shaolin Xu.JPG" # optional
+#imageTitle = "<title of image as alt>" # optional
+imageWidth = 360 # custom size
+imageHeight = 420 # custom size
+
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/shaolin-xu-3333601a7/"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/ShaolinXU"
+
+[[menu.main]]
+identifier = "blogs"
+name = "Blogs"
+url = "/blogs/"
+weight = 5
+
+[[menu.main]]
+identifier = "categories"
+name = "Categories"
+url = "/categories/"
+weight = 10
+
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 20
+
+[[menu.main]]
+identifier = "archives"
+name = "Archives"
+url = "/archives/"
+weight = 30
+
+[[menu.main]]
+identifier = "search"
+name = "Search"
+url = "/search/"
+weight = 40
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 50
+
+[outputs]
+home = ["HTML","RSS","JSON"]
