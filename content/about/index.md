@@ -1,6 +1,6 @@
 ---
 title: "About"
-date: '2025-06-30T22:07:04+02:00'
+date: 2025-06-29T23:15:00+07:00
 slug: about
 category:
 summary:
